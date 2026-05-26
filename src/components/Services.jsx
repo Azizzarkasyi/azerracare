@@ -94,7 +94,24 @@ export default function Services() {
                         <h4 className="font-body font-bold text-base text-text">
                           {item.name}
                         </h4>
-                        <p className="font-body text-sm font-semibold text-primary">
+                        {item.description && (
+                          <div className="mt-1 mb-1.5 pl-1">
+                            {Array.isArray(item.description) ? (
+                              <ul className="list-disc list-outside space-y-0.5 pl-3">
+                                {item.description.map((desc, idx) => (
+                                  <li key={idx} className="font-body text-xs text-text-muted">
+                                    {desc}
+                                  </li>
+                                ))}
+                              </ul>
+                            ) : (
+                              <p className="font-body text-xs text-text-muted leading-relaxed">
+                                {item.description}
+                              </p>
+                            )}
+                          </div>
+                        )}
+                        <p className="font-body text-sm font-semibold text-primary mt-1">
                           {item.priceText}
                         </p>
                       </div>

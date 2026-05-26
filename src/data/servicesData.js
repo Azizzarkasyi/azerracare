@@ -3,14 +3,13 @@ export const serviceCategories = [
     category: "Baby Treatment",
     items: [
       { id: "b1", name: "Baby Massage 0-1 tahun", price: 45000, priceText: "Rp 45.000" },
-      { id: "b1", name: "Baby Massage 1-2 tahun", price: 50000, priceText: "Rp 50.000" },
-      { id: "b2", name: "Baby Massage 2-3 tahun", price: 55000, priceText: "Rp 55.000" },
-      { id: "b3", name: "Baby Massage 3-5 tahun", price: 60000, priceText: "Rp 60.000" },
-      { id: "b4", name: "Baby Gym", price: 35000, priceText: "Rp 35.000" },
-      { id: "b5", name: "Massage Bapil", price: 40000, priceText: "Rp 40.000" },
-      { id: "b6", name: "Massage kembung", price: 40000, priceText: "Rp 40.000" },
-      { id: "b7", name: "Massage nafsu makan", price: 40000, priceText: "Rp 40.000" },
-      { id: "b8", name: "B", price: 40000, priceText: "Rp 40.000" }
+      { id: "b2", name: "Baby Massage 1-2 tahun", price: 50000, priceText: "Rp 50.000" },
+      { id: "b3", name: "Baby Massage 2-3 tahun", price: 55000, priceText: "Rp 55.000" },
+      { id: "b4", name: "Baby Massage 3-5 tahun", price: 60000, priceText: "Rp 60.000" },
+      { id: "b5", name: "Baby Gym", price: 35000, priceText: "Rp 35.000" },
+      { id: "b6", name: "Massage Bapil", price: 40000, priceText: "Rp 40.000" },
+      { id: "b7", name: "Massage kembung", price: 40000, priceText: "Rp 40.000" },
+      { id: "b8", name: "Massage nafsu makan", price: 40000, priceText: "Rp 40.000" }
     ]
   },
   {
@@ -20,6 +19,39 @@ export const serviceCategories = [
       { id: "m2", name: "Pijat Oksitosin", price: 70000, priceText: "Rp 70.000" },
       { id: "m3", name: "Pijat Laktasi", price: 70000, priceText: "Rp 70.000" },
       { id: "m4", name: "Kelas ibu menyusui", price: 45000, priceText: "Rp 45.000" }
+    ]
+  },
+  {
+    category: "Paket Newborn",
+    items: [
+      { 
+        id: "n1", 
+        name: "Paket A (7 hari)", 
+        price: 600000, 
+        priceText: "Rp 600.000",
+        description: [
+          "Mandi pagi 7x",
+          "Berjemur",
+          "Perawatan tali pusat",
+          "Potong kuku",
+          "Pijat bayi 2x",
+          "Pijat oksitosin"
+        ]
+      },
+      { 
+        id: "n2", 
+        name: "Paket B (5 hari)", 
+        price: 380000, 
+        priceText: "Rp 380.000",
+        description: [
+          "Mandi 5x",
+          "Berjemur",
+          "Perawatan tali pusat",
+          "Potong kuku",
+          "Pijat bayi 1x",
+          "Pijat laktasi 1x"
+        ]
+      }
     ]
   },
   {

@@ -38,7 +38,7 @@ export default function Features() {
           viewport={{ once: true }}
         >
           <h2 className="font-display text-3xl font-bold text-text">
-            Kenapa Pilih Azerra Care?
+            Kenapa Pilih AzerraCare?
           </h2>
         </motion.div>
 

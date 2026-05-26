@@ -13,7 +13,7 @@ export default function App() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Azerra Care",
+    "name": "AzerraCare",
     "image": "https://azerracare.web.id/assets/hero.png",
     "@id": "https://azerracare.web.id",
     "url": "https://azerracare.web.id",
@@ -52,7 +52,7 @@ export default function App() {
   return (
     <>
       <Helmet>
-        <title>Azerra Care — Maternal & Baby Massage Care Yogyakarta</title>
+        <title>AzerraCare — Maternal & Baby Massage Care Yogyakarta</title>
         <meta name="description" content="Layanan treatment bayi & pijat laktasi / mom care profesional oleh bidan bersertifikat, langsung ke rumah Anda di Yogyakarta." />
         <meta name="keywords" content="pijat bayi jogja, baby spa jogja, baby spa homecare yogyakarta, laktasi jogja, mom care jogja, bidan homecare jogja" />
         <link rel="canonical" href="https://azerracare.web.id" />

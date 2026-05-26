@@ -31,7 +31,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center bg-white/10 hover:bg-white/20 text-white w-10 h-10 rounded-full transition-colors duration-200"
-            aria-label="WhatsApp Azerra Care"
+            aria-label="WhatsApp AzerraCare"
           >
             <MessageCircle size={20} />
           </a>
@@ -42,7 +42,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center bg-white/10 hover:bg-white/20 text-white w-10 h-10 rounded-full transition-colors duration-200"
-            aria-label="Instagram Azerra Care"
+            aria-label="Instagram AzerraCare"
           >
             <svg
               className="w-5 h-5"
