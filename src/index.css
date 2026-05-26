@@ -1,0 +1,38 @@
+:root {
+  --color-bg:            #FDF5F3;
+  --color-surface:       #FCEAE8;
+  --color-primary:       #C0544A;
+  --color-primary-hover: #A03D34;
+  --color-cta:           #25D366;
+  --color-cta-hover:     #1DA851;
+  --color-text:          #3D1A1A;
+  --color-text-muted:    #7A4F4F;
+  --color-border:        rgba(61,26,26,0.10);
+  --font-display:        'Playfair Display', Georgia, serif;
+  --font-body:           'Plus Jakarta Sans', sans-serif;
+  --radius-card:         1.25rem;
+  --radius-btn:          9999px;
+  --shadow-card:         0 2px 12px rgba(61,26,26,0.08);
+  --shadow-hover:        0 8px 24px rgba(61,26,26,0.14);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-text);
+}
