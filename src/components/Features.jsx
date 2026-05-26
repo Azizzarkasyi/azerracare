@@ -20,7 +20,7 @@ export default function Features() {
     {
       id: 3,
       title: "Bahan 100% Aman Bayi",
-      description: "Menggunakan minyak telon dan bahan alami yang sudah teruji keamanannya untuk bayi.",
+      description: "Menggunakan minyak herbal zaitun terpercaya dan teruji keamanannya untuk bayi.",
       icon: Leaf
     }
   ];

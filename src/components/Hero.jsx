@@ -30,7 +30,7 @@ export default function Hero() {
           
           {/* Sub-text */}
           <p className="font-body text-lg text-text-muted leading-relaxed max-w-lg">
-            Layanan pijat bayi & baby spa profesional oleh bidan bersertifikat, langsung ke rumah Anda.
+            Layanan treatment bayi profesional oleh bidan bersertifikat, langsung ke rumah Anda.
           </p>
           
           {/* Action Row */}
